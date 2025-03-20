@@ -12,8 +12,9 @@
 
 2. **Git-Integration:**  
   Nach der Erstellung des Maven-Projekts wurde die Versionskontrolle mit Git eingerichtet. 
+
 3. **Implementierung der `Calculator`-Klasse:**  
-   Die Klasse Calculator wurde implementiert, um grundlegende mathematische Operationen durchzuführen.
+   Die Klasse **Calculator** und **Main.java** wurde implementiert, um grundlegende mathematische Operationen durchzuführen.
 4. **Build-Automatisierung:**  
   Die `pom.xml` wurde für die Kompilierung und Ausführung des Projekts konfiguriert.
   Kompilierung des Projekts mit:
@@ -32,12 +33,12 @@
 
 - **Projektstruktur**  
   
-  ![Projektstruktur](resources/images/ex3_1.png)
+  ![Projektstruktur](resources/images/ex3_1.PNG)
 
-- **Erfolgreiche Kompilierung**  
+- **Erfolgreiche Kompilierung ( Screenshot Build-Erfolg)**  
   
-  ![Kompilierung](resources/images/ex3_2.png)
+  ![ Screenshot Build-Erfolg](resources/images/ex3_2.PNG)
 
-- **Programmausgabe**  
+- **Maven-Execution**  
   
-  ![Ausgabe](resources/images/ex3_3.png)
+  ![Screenshot Maven-Execution](resources/images/ex3_3.PNG)
