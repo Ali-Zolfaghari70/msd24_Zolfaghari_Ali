@@ -35,8 +35,24 @@ public class Calculator {
 //   return n * factorial(n - 1);
 //  }
 
- public int factorial(int n) {
-  return (n <= 1) ? 1 : n * factorial(n - 1);
- }
+//  public int factorial(int n) {
+//   return (n <= 1) ? 1 : n * factorial(n - 1);
+//  }
+
+// public int factorial(int n) {
+//   return 0; // Platzhalter, damit alle Tests zuerst fehlschlagen
+// }
+
+public int factorial(int n) {
+  if (n < 0) {
+      return 0; // Vereinbarte Regel: Fakultät für negative Zahlen = 0
+  }
+  int result = 1;
+  for (int i = 1; i <= n; i++) {
+      result *= i;
+  }
+  return result;
+}
+
  
 }
