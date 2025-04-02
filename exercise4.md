@@ -27,8 +27,8 @@ Diese Übung umfasst die Erstellung von Unit-Tests für eine Taschenrechner-Klas
 ## **4. Abgabe**
 - Testklasse mit allen Testfällen.
 - Screenshot der Testabdeckung (`ex4_1.png`).
-![Screenshot der Testabdeckung](resources/images/ex4_1.PNG)
+![Screenshot der Testabdeckung](resources/images/ex4_1.png)
 - Screenshot der fehlschlagenden Tests (`ex4_2.png`).
-![Screenshot der fehlschlagenden Tests](resources/images/ex4_2.PNG)
+![Screenshot der fehlschlagenden Tests](resources/images/ex4_2.png)
 - Versioniertes Projekt auf GitHub/Repository hochgeladen.
 
