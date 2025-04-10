@@ -1,10 +1,14 @@
 package at.fhj.msd;
 
-import java.util.Scanner;
-
 public class Main {
     
+   // private static final Logger logger = LogManager.getLogger(Main.class);
+    
     public static void main(String[] args) {
+
+        // logger.info("Info log message");
+        // logger.error("Error log message");
+        /* 
         Scanner scanner = new Scanner(System.in);
 
         Calculator calculator = new Calculator();
@@ -48,6 +52,21 @@ public class Main {
 
         Calculator fact = new Calculator();
        System.out.println(fact.factorial(0));
+       */
+
+       Calculator calc = new Calculator();
+
+        System.out.println("Ali Zolfaghari");
+
+        System.out.println(calc.add(7, 21));
+        System.out.println(calc.subtract(7, 21));
+        System.out.println(calc.divide(7, 21));
+        System.out.println(calc.multiply(21, 7));
+        System.out.println(calc.divide(10, 0));
+
+        // logger.info("Das ist Info");
+        // logger.error("Das ist Error");
+
     }
        
 }
