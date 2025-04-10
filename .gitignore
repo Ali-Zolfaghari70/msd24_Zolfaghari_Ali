@@ -1,6 +1,7 @@
 *.html
 *.pdf
 \target
+.idea/
 \.vscode
 \logs
 src/main/resources/log4j2.xml
