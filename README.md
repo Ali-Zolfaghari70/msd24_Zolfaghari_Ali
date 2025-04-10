@@ -61,11 +61,19 @@ CalculatorImpl/
   >**Beschreibung**: Erstellen Sie eine grundlegende README-Datei und üben Sie
   Markdown-Syntax (Überschriften, Links, Bilder)
 
-- Exercise 2 (hinzugefügt werden.)
-    
-- Exercise 3 (hinzugefügt werden.)
-- Exercise 4 (hinzugefügt werden.)
-- Exercise 5 (hinzugefügt werden.)
+2. [**Exercise 2**](exercise2.md)
+
+      >Einstieg in die Git-Befehle. Übungsziel: Git-Befehle kennerlernen und weiter die Markdown Syntax kennenlernen (z.B. Tabellen einfügen)
+
+3. [**Exercise 3**](exercise3.md)
+
+      >Einstieg zum erstellen erster Maven Projekte und kompilieren sowie ausführen mittels Maven
+
+4. [**Exercise 4**](exercise4.md)
+      >Einstieg zur erstellen von Testen mit JUnit, also  ganz Basic, dass man das Ergebnis einer Methode mit dem Ergebnis das rauskommen sollte (wenn die Methode richtig implemeiert worden ist)
+
+ 5. [**Exercise 5**](exercise5.md)
+      >Einstieg in das Erstellen, Ändern und Arbeiten mit verschiedenen Branches sowie das Arbeiten mit der logging bibliothek
 - Exercise 6 (hinzugefügt werden.)
 
 ## Autor
