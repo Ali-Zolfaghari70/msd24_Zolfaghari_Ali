@@ -81,3 +81,62 @@ CalculatorImpl/
  
 - **GitHub Profile:** [Ali Zolfaghari](https://github.com/Ali-Zolfaghari70)
 - **Universität:** [FH Joanneum](https://www.fh-joanneum.at/)
+
+
+## Logging-Konfiguration
+
+Für das Logging wird Apache Log4J2 verwendet. Die Konfigurationsdatei (`log4j2.xml`) wird **nicht** mitversioniert. Bitte folgende Schritte beachten:
+
+1. Kopiere `log4j2.xml.template` nach `src/main/resources/log4j2.xml`
+2. Stelle sicher, dass das Verzeichnis `logs/` vorhanden ist
+3. Log-Ausgaben erscheinen in `logs/myapp.log` sowie in der Konsole
+
+Weitere Informationen zur Konfiguration befinden sich in der Datei [exercise5.md](./exercise5.md).
+
+
+
+[Template der log4j2.xml Datei](src/main/resources/log4j2.xml.template)
+     
+
+## Wie die log4j2.xml Datei aussieht (Template)
+
+
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+ <Appenders>
+ <!-- Ausgabe auf Konsole -->
+ <Console name="Console" target="SYSTEM_OUT">
+ <PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36}
+- %msg%n" />
+ </Console>
+ <!-- Logdatei-Ausgabe -->
+ <File name="FileLogger" fileName="logs/app.log" append="true">
+ <PatternLayout>
+ <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %c{1} -
+%msg%n</pattern>
+ </PatternLayout>
+ </File>
+ </Appenders>
+ <Loggers>
+ <!-- Root Logger -->
+ <Root level="debug">
+ <AppenderRef ref="Console"/>
+ <AppenderRef ref="FileLogger"/>
+ </Root>
+ </Loggers>
+</Configuration>
+```
+
+<h3>Das Resultat:</h3>
+
+```
+2025-04-03 14:03:50 INFO  Calculator -
+divide called with: number1 =10.0, number2 =0.0
+2025-04-03 14:03:50 ERROR Calculator -
+Division called with 0!
+
+...
+```
+Es liefert die Lognachrichten in die app.log Datei, wobei wenn man die Test noch mal ausführt die Datei nicht überschriben wird sondern es zu ihr angesetzt wird (**append**)
