@@ -75,7 +75,8 @@ CalculatorImpl/
  5. [**Exercise 5**](exercise5.md)
       >Einstieg in das Erstellen, Ändern und Arbeiten mit verschiedenen Branches sowie das Arbeiten mit der logging bibliothek
 - Exercise 6 (hinzugefügt werden.)
-
+6. [**Exercise 6**](exercise6.md)
+    >für Details zur Maven-Site.
 ## Autor
 - **Ali Zolfaghari**
  
