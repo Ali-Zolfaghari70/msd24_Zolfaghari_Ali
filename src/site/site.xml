@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Calculator Documentation">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+        <menu name="Dokumentation">
+            <item name="Übung 6" href="exercise6.html"/>
+            <item name="Good Style Guide" href="good_style.html"/>
+        </menu>
+        <menu ref="reports"/>
+    </body>
+</project>
